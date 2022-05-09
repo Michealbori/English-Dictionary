@@ -1,0 +1,155 @@
+#placeholder{
+    width: 20%;
+}
+#allform{
+    display: block;
+    justify-content: center;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0.6em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#all{
+    display: block;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.myall{
+    display: flex;
+    /* justify-content: ; */
+}
+
+#allthrough{
+    display: none;
+}
+
+#wordcon{
+    font-size: 22px;
+    color: gray;
+}
+
+#word {
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 4px;
+    padding-left: 5px;
+}
+ #phonetic{
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 4px;
+    padding-left: 5px;
+}
+ #defination{
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 4px;
+    padding-left: 5px;
+}
+ #partOfSpeech{
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 4px;
+    padding-left: 5px;
+}
+ #synonym{
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 4px;
+    padding-left: 5px;
+}
+
+ #antonym{
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 4px;
+    padding-left: 5px;
+}
+
+ #example{
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 4px;
+    padding-left: 5px;
+}
+#audio{
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 4px;
+    padding-left: 5px;
+}
+ #example{
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 4px;
+    padding-left: 5px;
+}
+h3{
+    color: #fc210d;
+}
+h5{
+    color: seagreen;
+}
+h2{
+    font-size: 25px;
+    background-image: -webkit-linear-gradient(red, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+}
+
+.rights{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-style: italic;
+color: black;
+font-size: 1em;
+padding-top: 2em;
+}
+.rights a{
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-style: italic;
+background-image: -webkit-linear-gradient(red, #333);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 1em;
+}
+
+
+.speaker{
+    padding-bottom: 1em;
+    height: 2.7em;
+    width: 2em;
+}
+@media screen and (max-width:37.5em) {
+    #allform{
+        display: block;
+        justify-content: flex-start;
+    }  
+    #placeholder{
+        width: auto;
+    }
+           .rights{
+                                                        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                                                    font-style: italic;
+                                                    color: #fc210d;
+                                                    font-size: 0.8em;
+                                                }
+                                                    .rights a{
+                                                        text-decoration: none;
+                                                        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                                                    font-style: italic;
+                                                    color: seagreen;
+                                                    font-size: 1em;
+                                                    }
+                                                    .header{
+                                                        display: flex;
+                                                        justify-content: center;
+                                                        padding-bottom: 0.6em;
+                                                    }
+}
